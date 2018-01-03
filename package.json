@@ -1,0 +1,19 @@
+{
+  "name": "mithril-base-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "webpack src/index.js bin/app.js -d --watch",
+    "liveReload": "budo --live --open bin/app.js",
+    "start": "npm run watch & npm run liveReload"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "mithril": "^1.1.6",
+    "webpack": "^3.10.0"
+  }
+}
